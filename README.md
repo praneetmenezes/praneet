@@ -1,4 +1,4 @@
-praneet's easy PHP development 
+Praneet's easy PHP development 
 =======
 
 PHP framework for easy php development
