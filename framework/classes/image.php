@@ -19,7 +19,6 @@ public function crop($source_image, $target_image, $crop_area)
             break;
         
         default:
-            trigger_error('Invalid source image type', E_USER_ERROR);
             return false;
     }
     $cropped_image = imagecreatetruecolor($crop_area['width'], $crop_area['height']);
